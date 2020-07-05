@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D19050F124B15E04000147C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19050F024B15E04000147C0 /* AppDelegate.swift */; };
+		D19050F324B15E04000147C0 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D19050F224B15E04000147C0 /* GameScene.sks */; };
+		D19050F524B15E04000147C0 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = D19050F424B15E04000147C0 /* Actions.sks */; };
+		D19050F724B15E04000147C0 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19050F624B15E04000147C0 /* GameScene.swift */; };
+		D19050F924B15E04000147C0 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19050F824B15E04000147C0 /* GameViewController.swift */; };
+		D19050FC24B15E04000147C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D19050FA24B15E04000147C0 /* Main.storyboard */; };
+		D19050FE24B15E05000147C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D19050FD24B15E05000147C0 /* Assets.xcassets */; };
+		D190510124B15E05000147C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D19050FF24B15E05000147C0 /* LaunchScreen.storyboard */; };
+		D190510C24B15E05000147C0 /* SoloMissionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D190510B24B15E05000147C0 /* SoloMissionTests.swift */; };
+		D190511724B15E05000147C0 /* SoloMissionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D190511624B15E05000147C0 /* SoloMissionUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D190510824B15E05000147C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D19050E524B15E04000147C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D19050EC24B15E04000147C0;
+			remoteInfo = SoloMission;
+		};
+		D190511324B15E05000147C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D19050E524B15E04000147C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D19050EC24B15E04000147C0;
+			remoteInfo = SoloMission;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D19050ED24B15E04000147C0 /* SoloMission.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoloMission.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D19050F024B15E04000147C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D19050F224B15E04000147C0 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		D19050F424B15E04000147C0 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		D19050F624B15E04000147C0 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		D19050F824B15E04000147C0 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		D19050FB24B15E04000147C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D19050FD24B15E05000147C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D190510024B15E05000147C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D190510224B15E05000147C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D190510724B15E05000147C0 /* SoloMissionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoloMissionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D190510B24B15E05000147C0 /* SoloMissionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoloMissionTests.swift; sourceTree = "<group>"; };
+		D190510D24B15E05000147C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D190511224B15E05000147C0 /* SoloMissionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoloMissionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D190511624B15E05000147C0 /* SoloMissionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoloMissionUITests.swift; sourceTree = "<group>"; };
+		D190511824B15E05000147C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D19050EA24B15E04000147C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D190510424B15E05000147C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D190510F24B15E05000147C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D19050E424B15E04000147C0 = {
+			isa = PBXGroup;
+			children = (
+				D19050EF24B15E04000147C0 /* SoloMission */,
+				D190510A24B15E05000147C0 /* SoloMissionTests */,
+				D190511524B15E05000147C0 /* SoloMissionUITests */,
+				D19050EE24B15E04000147C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D19050EE24B15E04000147C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D19050ED24B15E04000147C0 /* SoloMission.app */,
+				D190510724B15E05000147C0 /* SoloMissionTests.xctest */,
+				D190511224B15E05000147C0 /* SoloMissionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D19050EF24B15E04000147C0 /* SoloMission */ = {
+			isa = PBXGroup;
+			children = (
+				D19050F024B15E04000147C0 /* AppDelegate.swift */,
+				D19050F224B15E04000147C0 /* GameScene.sks */,
+				D19050F424B15E04000147C0 /* Actions.sks */,
+				D19050F624B15E04000147C0 /* GameScene.swift */,
+				D19050F824B15E04000147C0 /* GameViewController.swift */,
+				D19050FA24B15E04000147C0 /* Main.storyboard */,
+				D19050FD24B15E05000147C0 /* Assets.xcassets */,
+				D19050FF24B15E05000147C0 /* LaunchScreen.storyboard */,
+				D190510224B15E05000147C0 /* Info.plist */,
+			);
+			path = SoloMission;
+			sourceTree = "<group>";
+		};
+		D190510A24B15E05000147C0 /* SoloMissionTests */ = {
+			isa = PBXGroup;
+			children = (
+				D190510B24B15E05000147C0 /* SoloMissionTests.swift */,
+				D190510D24B15E05000147C0 /* Info.plist */,
+			);
+			path = SoloMissionTests;
+			sourceTree = "<group>";
+		};
+		D190511524B15E05000147C0 /* SoloMissionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D190511624B15E05000147C0 /* SoloMissionUITests.swift */,
+				D190511824B15E05000147C0 /* Info.plist */,
+			);
+			path = SoloMissionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D19050EC24B15E04000147C0 /* SoloMission */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D190511B24B15E05000147C0 /* Build configuration list for PBXNativeTarget "SoloMission" */;
+			buildPhases = (
+				D19050E924B15E04000147C0 /* Sources */,
+				D19050EA24B15E04000147C0 /* Frameworks */,
+				D19050EB24B15E04000147C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoloMission;
+			productName = SoloMission;
+			productReference = D19050ED24B15E04000147C0 /* SoloMission.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D190510624B15E05000147C0 /* SoloMissionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D190511E24B15E05000147C0 /* Build configuration list for PBXNativeTarget "SoloMissionTests" */;
+			buildPhases = (
+				D190510324B15E05000147C0 /* Sources */,
+				D190510424B15E05000147C0 /* Frameworks */,
+				D190510524B15E05000147C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D190510924B15E05000147C0 /* PBXTargetDependency */,
+			);
+			name = SoloMissionTests;
+			productName = SoloMissionTests;
+			productReference = D190510724B15E05000147C0 /* SoloMissionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D190511124B15E05000147C0 /* SoloMissionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D190512124B15E05000147C0 /* Build configuration list for PBXNativeTarget "SoloMissionUITests" */;
+			buildPhases = (
+				D190510E24B15E05000147C0 /* Sources */,
+				D190510F24B15E05000147C0 /* Frameworks */,
+				D190511024B15E05000147C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D190511424B15E05000147C0 /* PBXTargetDependency */,
+			);
+			name = SoloMissionUITests;
+			productName = SoloMissionUITests;
+			productReference = D190511224B15E05000147C0 /* SoloMissionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D19050E524B15E04000147C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "ZhenYu Niu";
+				TargetAttributes = {
+					D19050EC24B15E04000147C0 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					D190510624B15E05000147C0 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = D19050EC24B15E04000147C0;
+					};
+					D190511124B15E05000147C0 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = D19050EC24B15E04000147C0;
+					};
+				};
+			};
+			buildConfigurationList = D19050E824B15E04000147C0 /* Build configuration list for PBXProject "SoloMission" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D19050E424B15E04000147C0;
+			productRefGroup = D19050EE24B15E04000147C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D19050EC24B15E04000147C0 /* SoloMission */,
+				D190510624B15E05000147C0 /* SoloMissionTests */,
+				D190511124B15E05000147C0 /* SoloMissionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D19050EB24B15E04000147C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D19050FC24B15E04000147C0 /* Main.storyboard in Resources */,
+				D19050F324B15E04000147C0 /* GameScene.sks in Resources */,
+				D19050FE24B15E05000147C0 /* Assets.xcassets in Resources */,
+				D190510124B15E05000147C0 /* LaunchScreen.storyboard in Resources */,
+				D19050F524B15E04000147C0 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D190510524B15E05000147C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D190511024B15E05000147C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D19050E924B15E04000147C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D19050F724B15E04000147C0 /* GameScene.swift in Sources */,
+				D19050F924B15E04000147C0 /* GameViewController.swift in Sources */,
+				D19050F124B15E04000147C0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D190510324B15E05000147C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D190510C24B15E05000147C0 /* SoloMissionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D190510E24B15E05000147C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D190511724B15E05000147C0 /* SoloMissionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D190510924B15E05000147C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D19050EC24B15E04000147C0 /* SoloMission */;
+			targetProxy = D190510824B15E05000147C0 /* PBXContainerItemProxy */;
+		};
+		D190511424B15E05000147C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D19050EC24B15E04000147C0 /* SoloMission */;
+			targetProxy = D190511324B15E05000147C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D19050FA24B15E04000147C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D19050FB24B15E04000147C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D19050FF24B15E05000147C0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D190510024B15E05000147C0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D190511924B15E05000147C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D190511A24B15E05000147C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D190511C24B15E05000147C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SoloMission/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhenyu.SoloMission;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D190511D24B15E05000147C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SoloMission/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhenyu.SoloMission;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D190511F24B15E05000147C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SoloMissionTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhenyu.SoloMissionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoloMission.app/SoloMission";
+			};
+			name = Debug;
+		};
+		D190512024B15E05000147C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SoloMissionTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhenyu.SoloMissionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoloMission.app/SoloMission";
+			};
+			name = Release;
+		};
+		D190512224B15E05000147C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SoloMissionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhenyu.SoloMissionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SoloMission;
+			};
+			name = Debug;
+		};
+		D190512324B15E05000147C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SoloMissionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhenyu.SoloMissionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SoloMission;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D19050E824B15E04000147C0 /* Build configuration list for PBXProject "SoloMission" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D190511924B15E05000147C0 /* Debug */,
+				D190511A24B15E05000147C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D190511B24B15E05000147C0 /* Build configuration list for PBXNativeTarget "SoloMission" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D190511C24B15E05000147C0 /* Debug */,
+				D190511D24B15E05000147C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D190511E24B15E05000147C0 /* Build configuration list for PBXNativeTarget "SoloMissionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D190511F24B15E05000147C0 /* Debug */,
+				D190512024B15E05000147C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D190512124B15E05000147C0 /* Build configuration list for PBXNativeTarget "SoloMissionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D190512224B15E05000147C0 /* Debug */,
+				D190512324B15E05000147C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D19050E524B15E04000147C0 /* Project object */;
+}
